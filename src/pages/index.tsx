@@ -1,24 +1,28 @@
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 text-gray-300 font-sans quicksand">
+    <div className="bg-gray-999 text-gray-300 font-sans quicksand">
       <div className="p-6 sm:p-10 md:p-16 flex flex-wrap">
 
-        <div className="w-full md:w-1/4 md:pr-32 order-3 md:order-1">
+        <div className="w-full md:w-1/4 md:pr-10 order-3 md:order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
-            <p className="font-bold text-3xl my-4 md:my-12">Tomas Vancisin</p>
+            <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
+            <p className="text-base my-4 md:my-5">PhD researcher at the School of Computer Science St Andrews<br />
+              <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-990 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a></p>
+            <p className="text-xl my-4 md:my-5">Keywords</p>
+            <p className="my-4 md:my-5 text-sm">Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
 
-            <ul className="flex flex-wrap justify-between flex-col">
+            {/* <ul className="flex flex-wrap justify-between flex-col">
               <li><a href="#visualization" className="nav">Visualization</a></li>
               <li><a href="#" className="nav">Publications</a></li>
               <li><a href="#" className="nav">CV</a></li>
               <li><a href="#" className="nav">Contact</a></li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="w-full md:w-3/4 order-1 md:order-2">
           <div className="max-w-[50vw] leading-loose tracking-tight">
-            <h1 className="font-bold my-12">Post Title</h1>
+            <h1 className="font-bold my-12 text-center">Research & Publications</h1>
             <p className="mb-8">This template is inspired by the amazing <a href="https://minimalissimo.shop/product/minimalist-writer-ii" target="_blank">https://minimalissimo.shop/product/minimalist-writer-ii</a> created by <a href="https://manuelmoreale.com/">Manuel Moreale</a>.</p>
             <p className="mb-8">Lorem ipsum dolor sit amet, consectetur <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac.</p>
             <p className="mb-8" id="visualization">Netus et malesuada fames ac turpis egestas sed. Sociis natoque penatibus et magnis dis. Pulvinar etiam non quam lacus suspendisse faucibus. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Eget nullam non nisi est sit amet facilisis. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Vulputate mi sit amet mauris commodo quis. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam. Enim blandit volutpat maecenas volutpat blandit. Scelerisque fermentum dui faucibus in ornare. Ultricies tristique nulla aliquet enim tortor at auctor urna nunc. Id interdum velit laoreet id. Ut lectus arcu bibendum at varius vel pharetra vel turpis.</p>
@@ -43,6 +47,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
