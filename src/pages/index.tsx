@@ -7,13 +7,13 @@ export default function Home() {
         <div className="w-full md:w-1/4 md:pr-10 order-3 md:order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
-            <p className="text-sm my-4 md:my-5">Postgraduate Research Assistant<br />School of History <br />University of St Andrews </p>
-            <p className="text-sm my-4 md:my-5">PhD researcher <br /> School of Computer Science <br /> University of St Andrews<br />
-              <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-990 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a>
+            <p className="text-sm my-4 md:my-5"><b>Postgraduate Research Assistant</b><br />School of History <br />University of St Andrews </p>
+            <p className="text-sm my-4 md:my-5"><b>PhD researcher</b> <br /> School of Computer Science <br /> University of St Andrews<br />
+              <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a>
             </p>
 
             {/* <p className="text-xl my-4 md:my-5">Keywords</p> */}
-            <p className="md:my-4 text-sm">Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
+            <p className="md:my-4 text-sm"><b>Research Interests:</b><br /> Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
             <img className="w-3/5 inline-block" src="/uni_logo.png" />
 
             {/* <ul className="flex flex-wrap justify-between flex-col">
@@ -119,6 +119,6 @@ export default function Home() {
         </div>
 
       </div>
-    </div>
+    </div >
   )
 }
