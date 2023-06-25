@@ -14,7 +14,7 @@ export default function Home() {
 
             {/* <p className="text-xl my-4 md:my-5">Keywords</p> */}
             <p className="md:my-4 text-sm"><b>Research Interests:</b><br /> Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
-            <img className="w-3/5 inline-block" src="/uni_logo.png" />
+            <img className="md:w-3/5 inline-block" src="/uni_logo.png" />
 
             {/* <ul className="flex flex-wrap justify-between flex-col">
               <li><a href="#visualization" className="nav">Visualization</a></li>
