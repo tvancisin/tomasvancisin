@@ -80,7 +80,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="mb-5 text-sm">
+            <div className="mb-5 mt-8 text-sm">
               Apart from the transformations of the records and ways in which they can be brought to the fore
               throught visualization, I also developed a large variety of visualizations to enable
               studying the information within the historical records from new perspectives.
@@ -138,20 +138,19 @@ export default function Home() {
               Impact project was to bring works of nineteenth-century Russian crime fiction to greater
               public prominence through adaptation.
               <div className="grid grid-cols-1 justify-items-center mb-8">
-                <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/detectives.png" /></div>
-                <div className="text-xs mt-3">Illustration (Carol Adlam) and the landing page for the Lost Detectives projects developed by me.</div>
+                <div><a href="https://www.st-andrews.ac.uk/lostdetectives/"><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/detectives.png" /></a></div>
+                <div className="text-xs mt-3">Illustration (Carol Adlam) for the Lost Detectives project and the official website developed by me.</div>
               </div>
             </div>
 
           </div>
 
           <div className="w-full md:w-3/4 order-2 md:order-4">
-            <div className="max-w-md leading-loose tracking-tight">
-              <p className="font-bold my-4 md:my-12">About Me</p>
-              <p className="mb-8">Arcu risus quis varius quam quisque id diam vel. Consectetur adipiscing elit ut aliquam purus sit amet. Nibh tortor id aliquet lectus proin nibh. </p>
+            <h1 className="text-xl my-2 text-left">About Me</h1>
+            <div className="mb-8 text-sm">
+              For more information about me and my work, here is my <a href="/cv.pdf" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">CV</a>.
             </div>
           </div>
-
         </div>
 
       </div>
