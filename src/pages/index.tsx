@@ -39,7 +39,7 @@ export default function Home() {
             <h1 className="text-xl my-2 text-left">Legacies of the Empire <p className="text-xs">School of History, University of St Andrews</p></h1>
             <div className="mb-8 text-sm"> Currently working as
               a postgraduate research assistant for the Legacies of the Empire Project,
-              exploring how the University of St Andrews has benefited from UK's colonial past.
+              exploring how the University of St Andrews has benefited from UK&aposs colonial past.
               Using visualization to map careers and occupations of St Andrews University alumni in British colonies.
               <div className="grid grid-cols-1 justify-items-center">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/legacies.png" /></div>
@@ -55,7 +55,7 @@ export default function Home() {
               spanning the period between 1579 and 1897.
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
-                <div className="text-xs mt-2">Using Tableau to visualize students' birth locations and college affiliation [1747 - 1897].</div>
+                <div className="text-xs mt-2">Using Tableau to visualize students&apos birth locations and college affiliation [1747 - 1897].</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/graduates.JPG" /></div>
