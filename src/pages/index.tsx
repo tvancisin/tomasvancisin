@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-gray-999 text-gray-300 font-sans quicksand">
+    <div className="bg-gray-999 text-gray-200 font-sans quicksand">
       <div className="p-6 sm:p-10 md:p-16 flex flex-wrap">
 
         <div className="w-full md:w-1/4 md:pr-10 order-1">
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full md:w-3/4 lg:pr-28 order-1 md:order-2">
+        <div className="w-full md:w-3/4 lg:pr-28 order-1 md:order-2 text-gray-400">
           <div className="leading-loose tracking-tight">
             <h1 className="text-2xl my-5 text-center">RESEARCH</h1>
 
