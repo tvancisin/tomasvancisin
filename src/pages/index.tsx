@@ -4,7 +4,7 @@ export default function Home() {
     <div className="bg-gray-999 text-gray-300 font-sans quicksand">
       <div className="p-6 sm:p-10 md:p-16 flex flex-wrap">
 
-        <div className="w-full md:w-1/4 md:pr-10 order-3 md:order-1">
+        <div className="w-full md:w-1/4 md:pr-10 order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
             <p className="text-sm my-4 md:my-5"><b>Postgraduate Research Assistant</b><br />School of History <br />University of St Andrews </p>
@@ -14,7 +14,7 @@ export default function Home() {
 
             {/* <p className="text-xl my-4 md:my-5">Keywords</p> */}
             <p className="md:my-4 text-sm"><b>Research Interests:</b><br /> Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
-            <img className="md:w-3/5 inline-block" src="/uni_logo.png" />
+            <img className="w-3/5 inline-block" src="/uni_logo.png" />
 
             {/* <ul className="flex flex-wrap justify-between flex-col">
               <li><a href="#visualization" className="nav">Visualization</a></li>
@@ -25,37 +25,32 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full md:w-3/4 order-1 md:order-2">
-          <div className="max-w-[50vw] leading-loose tracking-tight">
+        <div className="w-full md:w-3/4 lg:pr-28 order-1 md:order-2">
+          <div className="leading-loose tracking-tight">
             <h1 className="text-2xl my-5 text-center">RESEARCH</h1>
 
-            {/* <p className="mb-8 text-base">
-              My name is Tom and I work with 
-              Digital Humanities, Information Visualication, and
-              Digital Heritage.
-            </p> */}
-
-
             <h1 className="text-xl my-2 text-left">Legacies of the Empire <p className="text-xs">School of History, University of St Andrews</p></h1>
-            <div className="mb-8 text-sm"> Currently working as
+            <div className="mb-8 text-sm">Currently working as
               a postgraduate research assistant for the Legacies of the Empire Project,
-              exploring how the University of St Andrews has benefited from UK&aposs colonial past.
-              Using visualization to map careers and occupations of St Andrews University alumni in British colonies.
+              exploring how the University of St Andrews has benefited from UK&apos;s colonial past.
+              Using the database I developed during my PhD, I visualize birth locations, career paths,
+              and occupations of St Andrews alumni in the British colonies.
               <div className="grid grid-cols-1 justify-items-center">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/legacies.png" /></div>
-                <div className="text-xs mt-2">St Andrews students travelling to
-                  and from British colonies [1700 - 1897].</div>
+                <div className="text-xsUniversity mt-2">Career paths of St Andrews students travelling to
+                  and from the British colonies between 1700 and 1897.</div>
               </div>
             </div>
 
             <h1 className="text-xl my-2 text-left">PhD Research<p className="text-xs">School of Computer Science, University of St Andrews</p></h1>
             <div className="mb-8 text-sm">
-              Developed a large variety of visualizations to explore the Biographical Register
-              of the University of St Andrews; a collection of 25,525 student and staff records
-              spanning the period between 1579 and 1897.
+              My PhD research is at the intersection of Information Visualization, Digital
+              Humanities, and History. I developed a large variety of visualizations to explore
+              the Biographical Register of the University of St Andrews; a collection of 25,525
+              student and staff biographical records spanning the period between 1579 and 1897.
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
-                <div className="text-xs mt-2">Using Tableau to visualize students&apos birth locations and college affiliation [1747 - 1897].</div>
+                <div className="text-xs mt-2">Using Tableau to visualize students&apos; birth locations and college affiliation [1747 - 1897].</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/graduates.JPG" /></div>
@@ -109,7 +104,7 @@ export default function Home() {
 
           </div>
 
-          <div className="w-full md:w-1/2 order-2 md:order-4">
+          <div className="w-full md:w-3/4 order-2 md:order-4">
             <div className="max-w-md leading-loose tracking-tight">
               <p className="font-bold my-4 md:my-12">About Me</p>
               <p className="mb-8">Arcu risus quis varius quam quisque id diam vel. Consectetur adipiscing elit ut aliquam purus sit amet. Nibh tortor id aliquet lectus proin nibh. </p>
