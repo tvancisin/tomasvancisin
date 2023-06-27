@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="bg-gray-999 text-gray-400 font-sans quicksand">
+    <div className="bg-black text-gray-400 font-sans quicksand">
       <div className="p-6 sm:p-10 md:p-16 flex flex-wrap">
 
         <div className="w-full md:w-1/4 md:pr-10 order-1">
