@@ -53,11 +53,11 @@ export default function Home() {
               provide more critical understanding of such historical collections.
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/bars.JPG" /></div>
-                <div className="text-xs mt-3">Visualizing the transformations of the University records since 1888 to 2022</div>
+                <div className="text-xs mt-3">Visualizing the transformations of the University records 1888 - 2022</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div><a href="https://provenance.tomasvancisin.co.uk"><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/scroll.PNG" /></a></div>
-                <div className="text-xs mt-3">Visualizing the transformations of the University records since 1888 to 2022</div>
+                <div className="text-xs mt-3">Visualizing the transformations of the University records 1888 - 2022 and the information within the records.</div>
               </div>
               <h3 className="text-lg font-semibold mt-2mb-2">
                 Publications:
@@ -87,14 +87,14 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
               <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
-              <div className="text-xs mt-3">Using Tableau to visualize students&apos; birth locations and college affiliation [1747 - 1897].</div>
+              <div className="text-xs mt-3">Using Tableau to visualize students&apos; birth locations and college affiliation 1747 - 1897.</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><a href="https://graduates.tomasvancisin.co.uk"><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/graduates.JPG" /></a></div>
-              <div className="text-xs mt-3">Using D3, Leaflet and Marker-Clustering to visualize graduates of the University [1747 - 1897].</div>
+              <div><img className="rounded-md md:mt-5 opacity-80  hover:opacity-100 transition-all" src="/graduates.JPG" /></div>
+              <div className="text-xs mt-3">Using D3, Leaflet and Marker-Clustering to visualize graduates of the University 1747 - 1897.</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/split.JPG" /></div>
+              <div><a href="https://history.tomasvancisin.co.uk"><img className="rounded-md md:mt-5 hover:scale-105 opacity-80 hover:opacity-100 transition-all" src="/split.JPG" /></a></div>
               <div className="text-xs mt-3">Emphasizing differences between current political map and a map from the period when
                 the British empire was at its greatest.</div>
             </div>
