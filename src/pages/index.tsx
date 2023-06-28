@@ -36,7 +36,7 @@ export default function Home() {
               Using the database I developed during my PhD, I visualize birth locations, career paths,
               and occupations of St Andrews alumni in the British colonies.
               <div className="grid grid-cols-1 justify-items-center">
-                <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/legacies.png" /></div>
+                <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/legacies.png" /></div>
                 <div className="text-xs mt-3">Career paths of St Andrews students travelling to
                   and from the British colonies between 1700 and 1897.</div>
               </div>
@@ -52,11 +52,11 @@ export default function Home() {
               The aim of this work is to highlight transparency, emphasize people&apos;s labor, and
               provide more critical understanding of such historical collections.
               <div className="grid grid-cols-1 justify-items-center mb-8">
-                <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/bars.JPG" /></div>
+                <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/bars.JPG" /></div>
                 <div className="text-xs mt-3">Visualizing the transformations of the University records since 1888 to 2022</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
-                <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/scroll.PNG" /></div>
+                <div><a href="https://provenance.tomasvancisin.co.uk"><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/scroll.PNG" /></a></div>
                 <div className="text-xs mt-3">Visualizing the transformations of the University records since 1888 to 2022</div>
               </div>
               <h3 className="text-lg font-semibold mt-2mb-2">
@@ -86,28 +86,28 @@ export default function Home() {
               studying the information within the historical records from new perspectives.
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
+              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
               <div className="text-xs mt-3">Using Tableau to visualize students&apos; birth locations and college affiliation [1747 - 1897].</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/graduates.JPG" /></div>
+              <div><a href="https://graduates.tomasvancisin.co.uk"><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/graduates.JPG" /></a></div>
               <div className="text-xs mt-3">Using D3, Leaflet and Marker-Clustering to visualize graduates of the University [1747 - 1897].</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/split.JPG" /></div>
+              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/split.JPG" /></div>
               <div className="text-xs mt-3">Emphasizing differences between current political map and a map from the period when
                 the British empire was at its greatest.</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/geojson.jpg" /></div>
+              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/geojson.jpg" /></div>
               <div className="text-xs mt-3">Using GeoJSON and D3 to map the development of academic networks.</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/round_bundle.JPG" /></div>
+              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/round_bundle.JPG" /></div>
               <div className="text-xs mt-3">Exploring career locations network through edge-bundling in D3.</div>
             </div>
             <div className="grid grid-cols-1 justify-items-center mb-8">
-              <div><img className="rounded-md md:mt-5 opacity-80 hover:scale-105 hover:opacity-100 transition-all" src="/map_network.JPG" /></div>
+              <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/map_network.JPG" /></div>
               <div className="text-xs mt-3">Exploring student paths to other universities in the UK and Europe using Leaflet and Echarts.</div>
             </div>
             <h3 className="text-lg font-semibold mt-2mb-2">
