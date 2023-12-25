@@ -7,14 +7,14 @@ export default function Home() {
         <div className="w-full md:w-1/4 md:pr-10 order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
-            <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive Data Visualisation</b><br />School of Law<br />University of Edinburgh</p>
+            <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive<br /> Data Visualization</b><br />School of Law<br />University of Edinburgh</p>
             <p className="text-sm my-4 md:my-5"><b>PhD researcher</b> <br /> School of Computer Science <br /> University of St Andrews<br />
               <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a>
             </p>
 
             {/* <p className="text-xl my-4 md:my-5">Keywords</p> */}
             <p className="md:my-4 text-sm"><b>Research Interests:</b><br /> Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> </p>
-            <img className="w-3/5 inline-block" src="/uni_logo.png" />
+            <img className="w-3/5 inline-block" src="/unilogo.png" />
 
             {/* <ul className="flex flex-wrap justify-between flex-col">
               <li><a href="#visualization" className="nav">Visualization</a></li>
@@ -30,11 +30,9 @@ export default function Home() {
             <h1 className="text-2xl my-5 text-center">RESEARCH</h1>
 
             <h1 className="text-xl my-2 text-left">Legacies of the Empire <p className="text-xs">School of History, University of St Andrews</p></h1>
-            <div className="mb-8 text-sm">Currently working as
-              a postgraduate research assistant for the Legacies of the Empire Project,
-              exploring how the University of St Andrews has benefited from UK&apos;s colonial past.
-              Using the database I developed during my PhD, I visualize birth locations, career paths,
-              and occupations of St Andrews alumni in the British colonies.
+            <div className="mb-8 text-sm">In summer 2023 I worked as a postgraduate research assistant for
+              the Legacies of the Empire Project, exploring how the University of St Andrews benefited from the British colonial past.
+              Using the database I developed during my PhD, I visualized birth locations, career paths, and alumni occupations in the British colonies.
               <div className="grid grid-cols-1 justify-items-center">
                 <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/legacies.png" /></div>
                 <div className="text-xs mt-3">Career paths of St Andrews students travelling to
