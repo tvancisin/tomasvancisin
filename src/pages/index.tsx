@@ -7,7 +7,7 @@ export default function Home() {
         <div className="w-full md:w-1/4 md:pr-10 order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
-            <p className="text-sm my-4 md:my-5"><b>Postgraduate Research Assistant</b><br />School of History <br />University of St Andrews </p>
+            <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive Data Visualisation</b><br />School of Law<br />University of Edinburgh</p>
             <p className="text-sm my-4 md:my-5"><b>PhD researcher</b> <br /> School of Computer Science <br /> University of St Andrews<br />
               <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a>
             </p>
