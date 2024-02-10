@@ -7,7 +7,7 @@ export default function Home() {
         <div className="w-full md:w-1/4 md:pr-10 order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
-            <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive<br /> Data Visualization</b><br />School of Law<br />University of Edinburgh</p>
+            <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive<br /> Data Visualization</b><br />School of Law (PeaceRep)<br />University of Edinburgh</p>
             <p className="text-sm my-4 md:my-5"><b>PhD researcher</b> <br /> School of Computer Science <br /> University of St Andrews<br />
               <a href="https://sachi.cs.st-andrews.ac.uk/" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">St Andrews HCI Research Group (SACHI)</a>
             </p>
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="w-full md:w-3/4 order-2 md:order-4">
             <h1 className="text-xl my-2 text-left">About Me</h1>
             <div className="mb-8 text-sm">
-              For more information about me and my work, here is my <a href="/cv.pdf" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">CV</a>.
+              For more information about me and my work, here is my <a href="/tomas_vancisin_cv.pdf" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">CV</a>.
             </div>
           </div>
         </div>
