@@ -40,6 +40,17 @@ export default function Home() {
               </div>
             </div>
 
+            <h1 className="text-xl my-2 text-left">Legacies of the Empire <p className="text-xs">School of History, University of St Andrews</p></h1>
+            <div className="mb-8 text-sm">In summer 2023 I worked as a postgraduate research assistant for
+              the Legacies of the Empire Project, exploring how the University of St Andrews benefited from the British colonial past.
+              Using the database I developed during my PhD, I visualized birth locations, career paths, and alumni occupations in the British colonies.
+              <div className="grid grid-cols-1 justify-items-center">
+                <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/legacies.png" /></div>
+                <div className="text-xs mt-3">Career paths of St Andrews students travelling to
+                  and from the British colonies between 1700 and 1897.</div>
+              </div>
+            </div>
+
             <h1 className="text-xl my-2 text-left">PhD Research<p className="text-xs">School of Computer Science, University of St Andrews</p></h1>
             <div className="mb-8 text-sm">
               My research is at the intersection of Information Visualization, Digital
