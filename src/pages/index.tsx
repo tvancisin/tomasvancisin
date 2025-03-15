@@ -29,14 +29,31 @@ export default function Home() {
           <div className="leading-loose tracking-tight">
             <h1 className="text-2xl my-5 text-center">RESEARCH</h1>
 
-            <h1 className="text-xl my-2 text-left">Legacies of the Empire <p className="text-xs">School of History, University of St Andrews</p></h1>
-            <div className="mb-8 text-sm">In summer 2023 I worked as a postgraduate research assistant for
-              the Legacies of the Empire Project, exploring how the University of St Andrews benefited from the British colonial past.
-              Using the database I developed during my PhD, I visualized birth locations, career paths, and alumni occupations in the British colonies.
+            <h1 className="text-xl my-2 text-left">PeaceRep <p className="text-xs">School of Law, University of Edinburgh</p></h1>
+            <div className="mb-8 text-sm">I am currently working at the Peace and Conflict Resolution Evidence Platform (PeaceRep) at
+              the University of Edinburgh and I am focusing on visualization of transition trajectories
+              and the mediation space of peace and transition processes.
               <div className="grid grid-cols-1 justify-items-center">
-                <div><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/legacies.png" /></div>
-                <div className="text-xs mt-3">Career paths of St Andrews students travelling to
-                  and from the British colonies between 1700 and 1897.</div>
+                <div><a href="https://globe-tracker.onrender.com/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/globe_peace.png" /></a></div>
+                <div className="text-xs mt-3">Formal peace agreements signed in the last year and the levels of
+                  estimated conflict-related fatalities per country in the last 12 months.</div>
+              </div>
+            </div>
+
+            <div className="mb-8 text-sm">
+              <div className="grid grid-cols-1 justify-items-center">
+                <div><a href="https://tvancisin.github.io/local_agreements/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/local_peace.png" /></a></div>
+                <div className="text-xs mt-3">Geospatial visualization of local peace agreements from Syria.
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-8 text-sm">
+              <div className="grid grid-cols-1 justify-items-center">
+                <div><a href="https://tvancisin.github.io/peace_scroll/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/scroll_peace.png" /></a></div>
+                <div className="text-xs mt-3">Scrollytelling visualization of trends and analysis on Russia and China as third party signatories in international/national
+                  peace agreements.
+                </div>
               </div>
             </div>
 
