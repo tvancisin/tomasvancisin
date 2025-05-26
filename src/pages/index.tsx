@@ -34,7 +34,7 @@ export default function Home() {
               the University of Edinburgh and I am focusing on visualization of transition trajectories
               and the mediation space of peace and transition processes.
               <div className="grid grid-cols-1 justify-items-center">
-                <div><a href="https://globe-tracker.onrender.com/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/globe_peace.png" /></a></div>
+                <div><a href="https://globe-tracker.onrender.com/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/globe_peace_min.jpg" /></a></div>
                 <div className="text-xs mt-3">Formal peace agreements signed in the last year and the levels of
                   estimated conflict-related fatalities per country in the last 12 months.</div>
               </div>
@@ -42,7 +42,7 @@ export default function Home() {
 
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
-                <div><a href="https://tvancisin.github.io/local_agreements/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/local_peace.png" /></a></div>
+                <div><a href="https://tvancisin.github.io/local_agreements/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/local_peace_min.jpg" /></a></div>
                 <div className="text-xs mt-3">Geospatial visualization of local peace agreements from Syria.
                 </div>
               </div>
@@ -50,7 +50,7 @@ export default function Home() {
 
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
-                <div><a href="https://tvancisin.github.io/peace_scroll/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/scroll_peace.png" /></a></div>
+                <div><a href="https://tvancisin.github.io/peace_scroll/" target="blank"><img className="rounded-md md:mt-5 opacity-80 hover:opacity-100 transition-all" src="/scroll_peace_min.jpg" /></a></div>
                 <div className="text-xs mt-3">Scrollytelling visualization of trends and analysis on Russia and China as third party signatories in international/national
                   peace agreements.
                 </div>
