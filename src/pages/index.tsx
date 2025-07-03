@@ -100,11 +100,11 @@ export default function Home() {
               provide more critical understanding of such historical collections.
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div className="mt-2 mb-1"><a href="https://provenance.tomasvancisin.co.uk"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/scroll.PNG" /></a></div>
-                <div className="text-xs text-center">Web-based visualization of the University records' transformations 1888 - 2022.</div>
+                <div className="text-xs text-center">Web-based visualization of the University record transformations 1888 - 2022.</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div className="mt-2 mb-1"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/bars.JPG" /></div>
-                <div className="text-xs text-center">First visualization prototype of the University records' transformations 1888 - 2022</div>
+                <div className="text-xs text-center">First visualization prototype of the University record transformations 1888 - 2022</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div className="mt-2 mb-1"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/vanc.JPG" /></div>
