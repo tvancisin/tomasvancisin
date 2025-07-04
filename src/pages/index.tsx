@@ -60,7 +60,8 @@ export default function Home() {
             <p className="text-s font-bold">School of History, University of St Andrews</p>
             <div className="mt-1 mb-5 text-sm">In summer 2023 I worked as a postgraduate research assistant for
               the Legacies of the Empire Project, exploring how the University of St Andrews benefited from the British colonial past.
-              Using the database I developed during my PhD, I visualized birth locations, career paths, and alumni occupations in the British colonies.
+              Using the database I developed during my PhD, I visualized birth locations, career paths, and alumni occupations in the British colonies. In 2025 I revisited
+              the data and in collaboration with the historian Aileen Fyfe, developed an interactive web-based visualization that allows an open-ended exploration of St Andrews colonial connections.
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="mt-2 mb-1"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/legacies.png" /></div>
                 <div className="text-xs text-center">Career paths of St Andrews students travelling to
