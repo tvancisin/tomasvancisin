@@ -31,6 +31,14 @@ export default function Home() {
 
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
+                <div className="mt-2 mb-1"><a href="https://peacehub.st-andrews.ac.uk/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/mediation.png" /></a></div>
+                <div className="text-xs text-center">Actors involved in Sudan conflict mediation between 2018 and 2024.
+                </div>
+              </div>
+            </div>
+
+            <div className="mb-8 text-sm">
+              <div className="grid grid-cols-1 justify-items-center">
                 <div className="mt-2 mb-1"><a href="https://tvancisin.github.io/local_agreements/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/local_peace_min.jpg" /></a></div>
                 <div className="text-xs text-center">Geospatial visualization of local peace agreements from Syria.
                 </div>
