@@ -7,6 +7,7 @@ export default function Home() {
         <div className="w-full md:w-1/4 md:pr-10 order-1">
           <div className="max-w-md md:float-right md:text-right leading-loose tracking-tight md:sticky md:top-0 ">
             <p className="text-3xl my-4 md:my-5">Tomas Vancisin</p>
+            <p className="text-sm my-4 md:my-5"><b>Data Visualization Engineer</b><br />Edinburgh Futures Institute<br />University of Edinburgh</p>
             <p className="text-sm my-4 md:my-5"><b>Research Associate in Interactive<br /> Data Visualization</b><br />School of Law (PeaceRep)<br />University of Edinburgh</p>
             <p className="md:my-4 text-sm"><b>Research Interests:</b><br /> Digital Humanities<br />Information Visualization <br /> Digital Heritage <br /> PeaceTech </p>
             <img className="w-3/5 inline-block mt-2" src="/unilogo.png" />
@@ -167,26 +168,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <h1 className="text-xl mt-5 text-left font-bold">Lost Detectives</h1>
-            <p className="text-s font-bold">School of Modern Languages, University of St Andrews</p>
-            <div className="mb-8 text-sm">
-              During my PhD research I worked as a research assistant for the Lost Detectives project
-              at the School of Modern Languages in St Andrews. The aim of this Knowledge Exchange and
-              Impact project was to bring works of nineteenth-century Russian crime fiction to greater
-              public prominence through adaptation.
-              <div className="grid grid-cols-1 justify-items-center mb-8">
-                <div className="text-xs mt-3"><a href="https://lostdetectives.wp.st-andrews.ac.uk/" target="blank"><img className="rounded-md md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/detectives.png" /></a></div>
-                <div className="text-xs text-center">Illustration (Carol Adlam) for the Lost Detectives project and the official website developed by me.</div>
-              </div>
-            </div>
-
           </div>
 
           <div className="w-full md:w-3/4 order-2 md:order-4">
             <h1 className="text-xl my-2 text-left">About Me</h1>
             <div className="mb-8 text-sm">
-              For more information about me and my work, here is my <a href="/tomas_vancisin_cv.pdf" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">CV</a>.
+              For more information about me and my work, here is my <a href="/tomas_vancisin_cv.pdf" target="_blank" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">CV</a>.
             </div>
           </div>
         </div>
