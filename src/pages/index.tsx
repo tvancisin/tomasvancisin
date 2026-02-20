@@ -33,6 +33,8 @@ export default function Home() {
               href="https://orcid.org/0000-0003-1283-5673"
               aria-label="View ORCID record - 0000-0003-1283-5673"
               className="hover:text-gray-500 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src="/orcid.png"
