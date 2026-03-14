@@ -73,15 +73,15 @@ export default function Home() {
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="mt-2 mb-1"><a href="https://tvancisin.github.io/pax_gender/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/gender.png" /></a></div>
-                <div className="text-xs text-center">This visualization uses the PA-X database to show how and to what extent women, girls, and gender are taken into consideration in peace agreements around the world.
+                <div className="text-xs text-center">Scrollytelling visualization showing how women, girls, and gender are taken into consideration in peace agreements around the world.
                 </div>
               </div>
             </div>
 
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
-                <div className="mt-2 mb-1"><a href="https://peacehub.st-andrews.ac.uk/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/mediation.png" /></a></div>
-                <div className="text-xs text-center">Actors involved in Sudan conflict mediation between 2018 and 2024.
+                <div className="mt-2 mb-1"><a href="https://peacehub.st-andrews.ac.uk/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/peacehub.png" /></a></div>
+                <div className="text-xs text-center">PeaceHub project focuses on understanding how third-party actors intervene in peace efforts.
                 </div>
               </div>
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
               connections.
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="mt-2 mb-1"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/legacies.png" /></div>
-                <div className="text-xs text-center">Career paths of St Andrews students travelling to
+                <div className="text-xs text-center">Exploring career paths of St Andrews students travelling to
                   and from the British colonies between 1700 and 1897.</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center">
