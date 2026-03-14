@@ -64,55 +64,24 @@ export default function Home() {
               visualization of transition trajectories and the mediation space
               of peace and transition processes.
               <div className="grid grid-cols-1 justify-items-center">
-                <div className="mt-2 mb-1">
-                  <a href="https://globe-tracker.onrender.com/" target="blank">
-                    <img
-                      className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all"
-                      src="/globe_peace_min.jpg"
-                    />
-                  </a>
-                </div>
-                <div className="text-xs text-center">
-                  Formal peace agreements signed and the levels of estimated
-                  conflict-related fatalities per country in the last 12 months.
+                <div className="mt-2 mb-1"><a href="https://globe-tracker.onrender.com/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/globe_peace_min.jpg" /></a></div>
+                <div className="text-xs text-center">Formal peace agreements signed and the levels of
+                  estimated conflict-related fatalities per country in the last 12 months.</div>
+              </div>
+            </div>
+
+            <div className="mb-8 text-sm">
+              <div className="grid grid-cols-1 justify-items-center">
+                <div className="mt-2 mb-1"><a href="https://tvancisin.github.io/pax_gender/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/gender.png" /></a></div>
+                <div className="text-xs text-center">This visualization uses the PA-X database to show how and to what extent women, girls, and gender are taken into consideration in peace agreements around the world.
                 </div>
               </div>
             </div>
 
             <div className="mb-8 text-sm">
               <div className="grid grid-cols-1 justify-items-center">
-                <div className="mt-2 mb-1">
-                  <a
-                    href="https://tvancisin.github.io/pax_gender/"
-                    target="blank"
-                  >
-                    <img
-                      className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all"
-                      src="/gender.png"
-                    />
-                  </a>
-                </div>
-                <div className="text-xs text-center">
-                  This visualization uses the PA-X database to show how and to
-                  what extent women, girls, and gender are taken into
-                  consideration in peace agreements around the world.
-                </div>
-              </div>
-            </div>
-
-            <div className="mb-8 text-sm">
-              <div className="grid grid-cols-1 justify-items-center">
-                <div className="mt-2 mb-1">
-                  <a href="https://peacehub.st-andrews.ac.uk/" target="blank">
-                    <img
-                      className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all"
-                      src="/mediation.png"
-                    />
-                  </a>
-                </div>
-                <div className="text-xs text-center">
-                  Actors involved in Sudan conflict mediation between 2018 and
-                  2024.
+                <div className="mt-2 mb-1"><a href="https://peacehub.st-andrews.ac.uk/" target="blank"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/mediation.png" /></a></div>
+                <div className="text-xs text-center">Actors involved in Sudan conflict mediation between 2018 and 2024.
                 </div>
               </div>
             </div>
@@ -159,6 +128,9 @@ export default function Home() {
             <h3 className="text-lg font-semibold mt-2">Publications:</h3>
             <div className="border-b border-gray-800 mt-1 mb-10">
               <div className="text-sm mb-3 italic">
+                Vancisin, T., Wang, J., Henry, N., Schöttler, S., Havens, L., Kauer, T., ... & Bach, B. (2025, November). <a href="https://hal.science/hal-05407000/document" target="blank" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">Visualizing Peace Transitions: Interactive Visualizations to Support Innovation and Adaptive Management in Peace Processes.</a> In VIS 2025-IEEE Visualization and Visual Analytics.
+              </div>
+              <div className="text-sm mb-3 italic">
                 Henry, N., Vancisin, T. (2025).{" "}
                 <a
                   href="https://link.springer.com/chapter/10.1007/978-3-031-93221-2_3"
@@ -172,6 +144,9 @@ export default function Home() {
                 In: Schrepp, M. (eds) Design, User Experience, and Usability.
                 HCII 2025. Lecture Notes in Computer Science, vol 15794.
                 Springer, Cham. https://doi.org/10.1007/978-3-031-93221-2_3
+              </div>
+              <div className="text-sm mb-3 italic">
+                Farquhar, A., Henry, N., Beaujouan, J., Wise, L., Hodge, J., Vancisin, T., ... & Epple, T. (2024). <a href="https://era.ed.ac.uk/items/64a76acb-fd6b-4a43-886f-e92bda9d5b9e" target="blank" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">Peace Agreements in 2023: Insights from the PA-X Database [PA-X Data Series].</a> PeaceRep: The Peace and Conflict Resolution Evidence Platform, University of Edinburgh.
               </div>
             </div>
 
@@ -192,16 +167,9 @@ export default function Home() {
               allows an open-ended exploration of St Andrews colonial
               connections.
               <div className="grid grid-cols-1 justify-items-center">
-                <div className="mt-2 mb-1">
-                  <img
-                    className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all"
-                    src="/legacies.png"
-                  />
-                </div>
-                <div className="text-xs text-center">
-                  Career paths of St Andrews students travelling to and from the
-                  British colonies between 1700 and 1897.
-                </div>
+                <div className="mt-2 mb-1"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/legacies.png" /></div>
+                <div className="text-xs text-center">Career paths of St Andrews students travelling to
+                  and from the British colonies between 1700 and 1897.</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center">
                 <div className="mt-2 mb-1">
@@ -224,6 +192,10 @@ export default function Home() {
             </div>
             <h3 className="text-lg font-semibold mt-2">Publications:</h3>
             <div className="border-b border-gray-800 mt-1 mb-10">
+              <div className="mt-1 mb-3">
+                <div className="text-sm mb-3 italic">
+                  Vancisin, T., & Fyfe, A. (2026). <a href="https://www.tandfonline.com/doi/full/10.1080/0046760X.2026.2631124" target="blank" className="text-blue-500 hover:text-blue-800 visited:text-purple-600">Visualising Historical University Records to Explore the Colonial Connections of the Students and Alumni of the University of St Andrews, 1700–1897.</a> History of Education, 1-24.                </div>
+              </div>
               <div className="mt-1 mb-3">
                 <div className="text-sm mb-3 italic">
                   Vancisin, T. & Fyfe, A. (2025).{" "}
@@ -272,18 +244,8 @@ export default function Home() {
               transparency, emphasize people&apos;s labor, and provide more
               critical understanding of such historical collections.
               <div className="grid grid-cols-1 justify-items-center mb-8">
-                <div className="mt-2 mb-1">
-                  <a href="https://provenance.tomasvancisin.co.uk">
-                    <img
-                      className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all"
-                      src="/scroll.PNG"
-                    />
-                  </a>
-                </div>
-                <div className="text-xs text-center">
-                  Web-based visualization of the University record
-                  transformations 1888 - 2022.
-                </div>
+                <div className="mt-2 mb-1"><a href="https://provenance.tomasvancisin.co.uk"><img className="rounded-sm md:mt-5 opacity-90 hover:opacity-100 transition-all" src="/scroll.PNG" /></a></div>
+                <div className="text-xs text-center">Web-based visualization of the University record transformations 1888 - 2022.</div>
               </div>
               <div className="grid grid-cols-1 justify-items-center mb-8">
                 <div className="mt-2 mb-1">
